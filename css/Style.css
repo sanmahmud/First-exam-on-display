@@ -1,0 +1,176 @@
+*{
+	margin: 0:
+	padding: 0;
+	box-sizing: border-box;
+}
+body{}
+.container{
+	width: 1100px;
+	margin: 0 auto;
+}
+header{
+    padding: 20px 0;
+    background: white;
+}
+.logo{
+    width: 30%;
+    float: left;
+    overflow: hidden;
+}
+.social{
+    float: left;
+    width: 70%;
+    overflow: hidden;
+}
+.social ul{
+    text-align: right;
+}
+.social ul li{
+    list-style: none;
+    display: inline-block;
+}
+.social ul li a{text-decoration: none;padding: 5px;display: block;}
+.social ul li a img{}
+span{
+    width: 1100px;
+    height: 3px;
+    background: #c3a3a3;
+    display: block;
+    overflow: hidden;
+}
+nav{
+    overflow: hidden;
+    width: 100%;
+}
+nav ul{
+    float: left;
+    margin-left: -40px;
+}
+nav ul li{list-style: none;display: inline-block;}
+nav ul li a{
+    text-decoration: none;
+    padding: 20px;
+    text-transform: uppercase;
+    color: #2f1f1f;
+    display: block;
+    font-size: 20px;
+}
+nav ul li a:hover{
+    background: #1baf1b;
+    color: white;
+}
+.banner-section{
+    background: url(../images/bannerbg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg-banner{
+}
+.img-banner{
+    margin-top: 30px;
+}
+.about-section{
+    background: #f7f4f4;
+    padding: 20px 0;
+}
+.about-contain{
+}
+.about-contain p{
+    text-align: center;
+    margin: 20px;
+    font-size: 16px;
+}
+.about-contain a{
+    text-align: center;
+    display: block;
+    padding: 10px;
+    background: #2dcc70;
+    width: 280px;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    left: 50%;
+    margin: 0 auto;
+    margin-top: 40px;
+    text-transform: uppercase;
+}
+.get-to-know-section{
+    padding: 20px 0;
+    background: #b1b1b3;
+    overflow: hidden;
+}
+.side-img{
+    float: left;
+    width: 50%;
+    margin-top: 25px;
+}
+.little-better{
+    width: 50%;
+    float: left;
+}
+.little-better h2{
+    text-transform: uppercase;
+    font-size: 25px;
+}
+.little-better p{
+    font-size: 16px;
+    text-align: justify;
+}
+.are-you-ready{
+    padding: 20px 0;
+    background: #272525;
+    overflow: hidden;
+}
+.click-here{
+}
+.click-here h2{
+    float: left;
+    width: 50%;
+    color: white;
+    text-transform: uppercase;
+}
+.click-here a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    width: 280px;
+    float: left;
+    margin-top: 20px;
+    padding: 10px;
+    background: green;
+    text-transform: uppercase;
+    font-size: 16px;
+    margin-left: 50px;
+    text-align: center;
+}
+footer{
+    padding: 20px 0;
+    background: white;
+    overflow: hidden;
+}
+.copy-rigt{
+    width: 50%;
+    float: left;
+}
+.copy-rigt p{
+    text-transform: uppercase;
+    font-size: 12px;
+    margin-top: 30px;
+}
+.footer-social{
+    width: 50%;
+    float: left;
+}
+.footer-social ul{}
+.footer-social ul li{
+    list-style: none;
+    display: inline-block;
+}
+.footer-social ul li a{
+    text-decoration: none;
+    font-size: 12px;
+    padding: 10px;
+    text-transform: uppercase;
+    display: block;
+    color: black;
+}
